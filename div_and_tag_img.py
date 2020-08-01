@@ -17,3 +17,5 @@ for x in range(0, w, w//divider_x):
         cv2.imwrite('part{}.jpg'.format(part_count), img_part)
         cv2.waitKey(1)
         part_count+=1
+    
+#related video: https://www.youtube.com/watch?v=y1IjpCJL52U
